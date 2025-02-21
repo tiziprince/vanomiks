@@ -1,0 +1,1160 @@
+/* Modal Custom Styling */
+@media (max-width: 768px) {
+
+    .connectWallet-modal .modal-dialog,
+    .connectMoreWallet-modal .modal-dialog {
+        width: 97%;
+        /* Adjust the width for smaller screens */
+        max-width: none;
+        /* Disable the default max-width */
+    }
+}
+
+.connectWallet-modal .modal-content,
+.connectMoreWallet-modal .modal-content {
+    background-color: #121313;
+    /* Dark background for modal content */
+    border-radius: 30px;
+    /* Rounded corners */
+    color: #ffffff;
+    /* White text */
+}
+
+.connectWallet-modal .modal-header,
+.connectMoreWallet-modal .modal-header {
+    border-bottom: 1px solid #444;
+    /* Subtle border */
+}
+
+.connectWallet-modal .modal-title,
+.connectMoreWallet-modal .modal-title {
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    /* Orange accent for modal title */
+}
+
+.connectWallet-modal .modal-header .close,
+.connectMoreWallet-modal .modal-header .close {
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+.connectWallet-modal .modal-body ul.wallets,
+.connectMoreWallet-modal .modal-body ul.wallets {
+    list-style: none;
+    padding-left: 0;
+    text-align: left;
+    /* Ensure text stays left-aligned */
+}
+
+.connectWallet-modal .modal-body ul.wallets li,
+.connectMoreWallet-modal .modal-body ul.wallets li {
+    display: flex;
+    align-items: center;
+    /* Aligns image and text vertically */
+    justify-content: flex-start;
+    /* Makes sure they are left-aligned */
+    margin-bottom: 10px;
+    background-color: #1E1F1F;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.connectWallet-modal .modal-body ul.wallets img,
+.connectMoreWallet-modal .modal-body ul.wallets img {
+    width: 40px;
+    height: 40px;
+    border-radius: 25%;
+    transition: transform 0.3s ease;
+    margin-right: 10px;
+    /* Adds space between image and text */
+}
+
+.connectWallet-modal .modal-body ul.wallets img:hover,
+.connectMoreWallet-modal .modal-body ul.wallets img:hover {
+    transform: scale(1.1);
+    /* Hover effect to enlarge wallet logos */
+}
+
+.connectWallet-modal p,
+.connectMoreWallet-modal p {
+    margin-top: 30px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.connectWallet-modal img,
+.connectMoreWallet-modal img {
+    width: 70px;
+}
+
+.connectWallet-modal h1,
+.connectMoreWallet-modal h1 {
+    text-align: center;
+    font-size: 11px;
+}
+
+.connectWallet-modal .modal-footer,
+.connectMoreWallet-modal .modal-footer {
+    border-top: 1px solid #444;
+    /* Subtle border */
+}
+
+.connectWallet-modal .btn-primary,
+.connectMoreWallet-modal .btn-primary {
+    background-color: #fff;
+    /* Orange button color */
+    border: none;
+}
+
+.connectWallet-modal .btn-primary:hover,
+.connectMoreWallet-modal .btn-primary:hover {
+    background-color: #e65c00;
+}
+
+.connectWallet-modal .btn-secondary,
+.connectMoreWallet-modal .btn-secondary {
+    background-color: #444;
+    padding: 5px 10px;
+    border: none;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.connectWallet-modal .btn-secondary:hover {
+    background-color: #666;
+}
+
+
+/* Start of connectTrustWallet Modal */
+@media (max-width: 768px) {
+    .connectTrustWallet-modal .modal-dialog {
+        width: 96%;
+        /* Adjust the width for smaller screens */
+        max-width: none;
+        /* Disable the default max-width */
+    }
+}
+
+.connectTrustWallet-modal .modal-content {
+    background-color: #121313;
+    /* Dark background for modal content */
+    border-radius: 30px;
+    /* Rounded corners */
+    color: #ffffff;
+    /* White text */
+}
+
+.connectTrustWallet-modal .modal-header {
+    border-bottom: 1px solid #444;
+    /* Subtle border */
+}
+
+.connectTrustWallet-modal .modal-title {
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    /* Orange accent for modal title */
+}
+
+.connectTrustWallet-modal .modal-header .close {
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+.connectTrustWallet-modal .modal-body ul.wallets {
+    list-style: none;
+    padding-left: 0;
+    text-align: left;
+    /* Ensure text stays left-aligned */
+}
+
+.connectTrustWallet-modal .modal-body ul.wallets li {
+    display: flex;
+    align-items: center;
+    /* Aligns image and text vertically */
+    justify-content: center;
+    /* Makes sure they are left-aligned */
+    height: 50px;
+    border-radius: 20px;
+}
+
+.connectTrustWallet-modal .modal-body ul.wallets .btn-tryAgain {
+    background-color: #1E1F1F;
+    color: #218791;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.connectTrustWallet-modal .modal-body ul.wallets img {
+    width: 55px;
+    height: 55px;
+    border-radius: 25%;
+    transition: transform 0.3s ease;
+    margin-right: 10px;
+}
+
+.connectTrustWallet-modal .modal-body ul.wallets img:hover {
+    transform: scale(1.1);
+    /* Hover effect to enlarge wallet logos */
+}
+
+.connectTrustWallet-modal .modal-footer {
+    border-top: 1px solid #444;
+    /* Subtle border */
+}
+
+.connectTrustWallet-modal .btn-primary {
+    background-color: #fff;
+    /* Orange button color */
+    border: none;
+}
+
+.connectTrustWallet-modal .btn-primary:hover {
+    background-color: #e65c00;
+}
+
+.connectTrustWallet-modal .btn-secondary {
+    background-color: #444;
+    /* Dark button for secondary actions */
+    border: none;
+}
+
+.connectTrustWallet-modal .btn-secondary:hover {
+    background-color: #666;
+}
+
+
+/* Start of connectCoinbase Modal */
+@media (max-width: 768px) {
+    .connectCoinbase-modal .modal-dialog {
+        width: 97%;
+        /* Adjust the width for smaller screens */
+        max-width: none;
+        /* Disable the default max-width */
+    }
+}
+
+.connectCoinbase-modal .modal-content {
+    background-color: #121313;
+    /* Dark background for modal content */
+    border-radius: 30px;
+    /* Rounded corners */
+    color: #ffffff;
+    /* White text */
+}
+
+.connectCoinbase-modal .modal-header {
+    border-bottom: 1px solid #444;
+    /* Subtle border */
+}
+
+.connectCoinbase-modal .modal-title {
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    /* Orange accent for modal title */
+}
+
+.connectCoinbase-modal .modal-header .close {
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+.connectCoinbase-modal .modal-body ul.wallets {
+    list-style: none;
+    padding-left: 0;
+    text-align: left;
+    /* Ensure text stays left-aligned */
+}
+
+.connectCoinbase-modal .modal-body ul.wallets li {
+    display: flex;
+    align-items: center;
+    /* Aligns image and text vertically */
+    justify-content: center;
+    /* Makes sure they are left-aligned */
+    height: 50px;
+    border-radius: 20px;
+}
+
+.connectCoinbase-modal .modal-body ul.wallets .btn-tryAgain {
+    background-color: #1E1F1F;
+    color: #218791;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.connectCoinbase-modal .modal-body ul.wallets img {
+    width: 55px;
+    height: 55px;
+    border-radius: 25%;
+    transition: transform 0.3s ease;
+    margin-right: 10px;
+    /* Adds space between image and text */
+}
+
+.connectCoinbase-modal .modal-body ul.wallets img:hover {
+    transform: scale(1.1);
+    /* Hover effect to enlarge wallet logos */
+}
+
+.connectCoinbase-modal .modal-footer {
+    border-top: 1px solid #444;
+    /* Subtle border */
+}
+
+.connectCoinbase-modal .btn-primary {
+    background-color: #fff;
+    /* Orange button color */
+    border: none;
+}
+
+.connectCoinbase-modal .btn-primary:hover {
+    background-color: #e65c00;
+}
+
+.connectCoinbase-modal .btn-secondary {
+    background-color: #444;
+    /* Dark button for secondary actions */
+    border: none;
+}
+
+.connectCoinbase-modal .btn-secondary:hover {
+    background-color: #666;
+}
+
+/* Start of connectMetamask Modal */
+@media (max-width: 768px) {
+    .connectMetamask-modal .modal-dialog {
+        width: 97%;
+        /* Adjust the width for smaller screens */
+        max-width: none;
+        /* Disable the default max-width */
+    }
+}
+
+.connectMetamask-modal .modal-content {
+    background-color: #121313;
+    /* Dark background for modal content */
+    border-radius: 30px;
+    /* Rounded corners */
+    color: #ffffff;
+    /* White text */
+}
+
+.connectMetamask-modal .modal-header {
+    border-bottom: 1px solid #444;
+    /* Subtle border */
+}
+
+.connectMetamask-modal .modal-title {
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    /* Orange accent for modal title */
+}
+
+.connectMetamask-modal .modal-header .close {
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+.connectMetamask-modal .modal-body ul.wallets {
+    list-style: none;
+    padding-left: 0;
+    text-align: left;
+    /* Ensure text stays left-aligned */
+}
+
+.connectMetamask-modal .modal-body ul.wallets li {
+    display: flex;
+    align-items: center;
+    /* Aligns image and text vertically */
+    justify-content: center;
+    /* Makes sure they are left-aligned */
+    height: 50px;
+    border-radius: 20px;
+}
+
+.connectMetamask-modal .modal-body ul.wallets .btn-tryAgain {
+    background-color: #1E1F1F;
+    color: #218791;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.connectMetamask-modal .modal-body ul.wallets img {
+    width: 55px;
+    height: 55px;
+    border-radius: 25%;
+    transition: transform 0.3s ease;
+    margin-right: 10px;
+    /* Adds space between image and text */
+}
+
+.connectMetamask-modal .modal-body ul.wallets img:hover {
+    transform: scale(1.1);
+    /* Hover effect to enlarge wallet logos */
+}
+
+.connectMetamask-modal .modal-footer {
+    border-top: 1px solid #444;
+    /* Subtle border */
+}
+
+.connectMetamask-modal .btn-primary {
+    background-color: #fff;
+    /* Orange button color */
+    border: none;
+}
+
+.connectMetamask-modal .btn-primary:hover {
+    background-color: #e65c00;
+}
+
+.connectMetamask-modal .btn-secondary {
+    background-color: #444;
+    /* Dark button for secondary actions */
+    border: none;
+}
+
+.connectMetamask-modal .btn-secondary:hover {
+    background-color: #666;
+}
+
+/* Start of connectSafePal Modal */
+@media (max-width: 768px) {
+    .connectSafePal-modal .modal-dialog {
+        width: 97%;
+        /* Adjust the width for smaller screens */
+        max-width: none;
+        /* Disable the default max-width */
+    }
+}
+
+.connectSafePal-modal .modal-content {
+    background-color: #121313;
+    /* Dark background for modal content */
+    border-radius: 30px;
+    /* Rounded corners */
+    color: #ffffff;
+    /* White text */
+}
+
+.connectSafePal-modal .modal-header {
+    border-bottom: 1px solid #444;
+    /* Subtle border */
+}
+
+.connectSafePal-modal .modal-title {
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    /* Orange accent for modal title */
+}
+
+.connectSafePal-modal .modal-header .close {
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+.connectSafePal-modal .modal-body ul.wallets {
+    list-style: none;
+    padding-left: 0;
+    text-align: left;
+    /* Ensure text stays left-aligned */
+}
+
+.connectSafePal-modal .modal-body ul.wallets li {
+    display: flex;
+    align-items: center;
+    /* Aligns image and text vertically */
+    justify-content: center;
+    /* Makes sure they are left-aligned */
+    height: 50px;
+    border-radius: 20px;
+}
+
+.connectSafePal-modal .modal-body ul.wallets .btn-tryAgain {
+    background-color: #1E1F1F;
+    color: #218791;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.connectSafePal-modal .modal-body ul.wallets img {
+    width: 55px;
+    height: 55px;
+    border-radius: 25%;
+    transition: transform 0.3s ease;
+    margin-right: 10px;
+    /* Adds space between image and text */
+}
+
+.connectSafePal-modal .modal-body ul.wallets img:hover {
+    transform: scale(1.1);
+    /* Hover effect to enlarge wallet logos */
+}
+
+.connectSafePal-modal .modal-footer {
+    border-top: 1px solid #444;
+    /* Subtle border */
+}
+
+.connectSafePal-modal .btn-primary {
+    background-color: #fff;
+    /* Orange button color */
+    border: none;
+}
+
+.connectSafePal-modal .btn-primary:hover {
+    background-color: #e65c00;
+}
+
+.connectSafePal-modal .btn-secondary {
+    background-color: #444;
+    /* Dark button for secondary actions */
+    border: none;
+}
+
+.connectSafePal-modal .btn-secondary:hover {
+    background-color: #666;
+}
+
+
+/* Start of connectBitcoin Modal */
+@media (max-width: 768px) {
+    .connectBitcoin-modal .modal-dialog,
+    .connectOkx-modal .modal-dialog,
+    .connectBitget-modal .modal-dialog,
+    .connectPhantom-modal .modal-dialog {
+        width: 97%;
+        /* Adjust the width for smaller screens */
+        max-width: none;
+        /* Disable the default max-width */
+    }
+}
+
+.connectBitcoin-modal .modal-content,
+.connectOkx-modal .modal-content,
+.connectBitget-modal .modal-content,
+.connectPhantom-modal .modal-content {
+    background-color: #121313;
+    /* Dark background for modal content */
+    border-radius: 30px;
+    /* Rounded corners */
+    color: #ffffff;
+    /* White text */
+}
+
+.connectBitcoin-modal .modal-header,
+.connectOkx-modal .modal-header,
+.connectBitget-modal .modal-header,
+.connectPhantom-modal .modal-header {
+    border-bottom: 1px solid #444;
+    /* Subtle border */
+}
+
+.connectBitcoin-modal .modal-title,
+.connectOkx-modal .modal-title,
+.connectBitget-modal .modal-title,
+.connectPhantom-modal .modal-title {
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    /* Orange accent for modal title */
+}
+
+.connectBitcoin-modal .modal-header .close,
+.connectOkx-modal .modal-header .close,
+.connectBitget-modal .modal-header .close,
+.connectPhantom-modal .modal-header .close {
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+.connectBitcoin-modal .modal-body ul.wallets, 
+.connectOkx-modal .modal-body ul.wallets,
+.connectBitget-modal .modal-body ul.wallets,
+.connectPhantom-modal .modal-body ul.wallets {
+    list-style: none;
+    padding-left: 0;
+    text-align: left;
+    /* Ensure text stays left-aligned */
+}
+
+.connectBitcoin-modal .modal-body ul.wallets li,
+.connectOkx-modal .modal-body ul.wallets li,
+.connectBitget-modal .modal-body ul.wallets li,
+.connectPhantom-modal .modal-body ul.wallets li {
+    display: flex;
+    align-items: center;
+    /* Aligns image and text vertically */
+    justify-content: center;
+    /* Makes sure they are left-aligned */
+    height: 50px;
+    border-radius: 20px;
+}
+
+.connectBitcoin-modal .modal-body ul.wallets .btn-tryAgain,
+.connectOkx-modal .modal-body ul.wallets .btn-tryAgain,
+.connectBitget-modal .modal-body ul.wallets .btn-tryAgain,
+.connectPhantom-modal .modal-body ul.wallets .btn-tryAgain {
+    background-color: #1E1F1F;
+    color: #218791;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.connectBitcoin-modal .modal-body ul.wallets img,
+.connectOkx-modal .modal-body ul.wallets img,
+.connectBitget-modal .modal-body ul.wallets img,
+.connectPhantom-modal .modal-body ul.wallets img {
+    width: 55px;
+    height: 55px;
+    border-radius: 25%;
+    transition: transform 0.3s ease;
+    margin-right: 10px;
+    /* Adds space between image and text */
+}
+
+.connectBitcoin-modal .modal-body ul.wallets img:hover,
+.connectOkx-modal .modal-body ul.wallets img:hover,
+.connectBitget-modal .modal-body ul.wallets img:hover,
+.connectPhantom-modal .modal-body ul.wallets img:hover {
+    transform: scale(1.1);
+    /* Hover effect to enlarge wallet logos */
+}
+
+.connectBitcoin-modal .modal-footer,
+.connectOkx-modal .modal-footer,
+.connectBitget-modal .modal-footer,
+.connectPhantom-modal .modal-footer {
+    border-top: 1px solid #444;
+    /* Subtle border */
+}
+
+.connectBitcoin-modal .btn-primary,
+.connectOkx-modal .btn-primary,
+.connectBitget-modal .btn-primary,
+.connectPhantom-modal .btn-primary {
+    background-color: #fff;
+    /* Orange button color */
+    border: none;
+}
+
+.connectBitcoin-modal .btn-primary:hover,
+.connectOkx-modal .btn-primary:hover,
+.connectBitget-modal .btn-primary:hover,
+.connectPhantom-modal .btn-primary:hover {
+    background-color: #e65c00;
+}
+
+.connectBitcoin-modal .btn-secondary,
+.connectOkx-modal .btn-secondary,
+.connectBitget-modal .btn-secondary,
+.connectPhantom-modal .btn-secondary {
+    background-color: #444;
+    /* Dark button for secondary actions */
+    border: none;
+}
+
+.connectBitcoin-modal .btn-secondary:hover,
+.connectOkx-modal .btn-secondary:hover,
+.connectBitget-modal .btn-secondary:hover,
+.connectPhantom-modal .btn-secondary:hover {
+    background-color: #666;
+}
+
+
+/* Start of connectCrypto Modal */
+@media (max-width: 768px) {
+    .connectCrypto-modal .modal-dialog {
+        width: 97%;
+        /* Adjust the width for smaller screens */
+        max-width: none;
+        /* Disable the default max-width */
+    }
+}
+
+.connectCrypto-modal .modal-content {
+    background-color: #121313;
+    /* Dark background for modal content */
+    border-radius: 30px;
+    /* Rounded corners */
+    color: #ffffff;
+    /* White text */
+}
+
+.connectCrypto-modal .modal-header {
+    border-bottom: 1px solid #444;
+    /* Subtle border */
+}
+
+.connectCrypto-modal .modal-title {
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    /* Orange accent for modal title */
+}
+
+.connectCrypto-modal .modal-header .close {
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+.connectCrypto-modal .modal-body ul.wallets {
+    list-style: none;
+    padding-left: 0;
+    text-align: left;
+    /* Ensure text stays left-aligned */
+}
+
+.connectCrypto-modal .modal-body ul.wallets li {
+    display: flex;
+    align-items: center;
+    /* Aligns image and text vertically */
+    justify-content: center;
+    /* Makes sure they are left-aligned */
+    height: 50px;
+    border-radius: 20px;
+}
+
+.connectCrypto-modal .modal-body ul.wallets .btn-tryAgain {
+    background-color: #1E1F1F;
+    color:#218791;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.connectCrypto-modal .modal-body ul.wallets img {
+    width: 55px;
+    height: 55px;
+    border-radius: 25%;
+    transition: transform 0.3s ease;
+    margin-right: 10px;
+    /* Adds space between image and text */
+}
+
+.connectCrypto-modal .modal-body ul.wallets img:hover {
+    transform: scale(1.1);
+    /* Hover effect to enlarge wallet logos */
+}
+
+.connectCrypto-modal .modal-footer {
+    border-top: 1px solid #444;
+    /* Subtle border */
+}
+
+.connectCrypto-modal .btn-primary {
+    background-color: #fff;
+    /* Orange button color */
+    border: none;
+}
+
+.connectCrypto-modal .btn-primary:hover {
+    background-color: #e65c00;
+}
+
+.connectCrypto-modal .btn-secondary {
+    background-color: #444;
+    /* Dark button for secondary actions */
+    border: none;
+}
+
+.connectCrypto-modal .btn-secondary:hover {
+    background-color: #666;
+}
+
+/* Start of connectExodusWallet Modal */
+@media (max-width: 768px) {
+    .connectExodusWallet-modal .modal-dialog {
+        width: 97%;
+        /* Adjust the width for smaller screens */
+        max-width: none;
+        /* Disable the default max-width */
+    }
+}
+
+.connectExodusWallet-modal .modal-content {
+    background-color: #121313;
+    /* Dark background for modal content */
+    border-radius: 30px;
+    /* Rounded corners */
+    color: #ffffff;
+    /* White text */
+}
+
+.connectExodusWallet-modal .modal-header {
+    border-bottom: 1px solid #444;
+    /* Subtle border */
+}
+
+.connectExodusWallet-modal .modal-title {
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    /* Orange accent for modal title */
+}
+
+.connectExodusWallet-modal .modal-header .close {
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+.connectExodusWallet-modal .modal-body ul.wallets {
+    list-style: none;
+    padding-left: 0;
+    text-align: left;
+    /* Ensure text stays left-aligned */
+}
+
+.connectExodusWallet-modal .modal-body ul.wallets li {
+    display: flex;
+    align-items: center;
+    /* Aligns image and text vertically */
+    justify-content: center;
+    /* Makes sure they are left-aligned */
+    height: 50px;
+    border-radius: 20px;
+}
+
+.connectExodusWallet-modal .modal-body ul.wallets .btn-tryAgain {
+    background-color: #1E1F1F;
+    color: #218791;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.connectExodusWallet-modal .modal-body ul.wallets img {
+    width: 55px;
+    height: 55px;
+    border-radius: 25%;
+    transition: transform 0.3s ease;
+    margin-right: 10px;
+    /* Adds space between image and text */
+}
+
+.connectExodusWallet-modal .modal-body ul.wallets img:hover {
+    transform: scale(1.1);
+    /* Hover effect to enlarge wallet logos */
+}
+
+.connectExodusWallet-modal .modal-footer {
+    border-top: 1px solid #444;
+    /* Subtle border */
+}
+
+.connectExodusWallet-modal .btn-primary {
+    background-color: #fff;
+    /* Orange button color */
+    border: none;
+}
+
+.connectExodusWallet-modal .btn-primary:hover {
+    background-color: #e65c00;
+}
+
+.connectExodusWallet-modal .btn-secondary {
+    background-color: #444;
+    /* Dark button for secondary actions */
+    border: none;
+}
+
+.connectExodusWallet-modal .btn-secondary:hover {
+    background-color: #666;
+}
+
+
+/* Start of connectAtomicWallet Modal */
+@media (max-width: 768px) {
+    .connectAtomicWallet-modal .modal-dialog {
+        width: 97%;
+        /* Adjust the width for smaller screens */
+        max-width: none;
+        /* Disable the default max-width */
+    }
+}
+
+.connectAtomicWallet-modal .modal-content {
+    background-color: #121313;
+    /* Dark background for modal content */
+    border-radius: 30px;
+    /* Rounded corners */
+    color: #ffffff;
+    /* White text */
+}
+
+.connectAtomicWallet-modal .modal-header {
+    border-bottom: 1px solid #444;
+    /* Subtle border */
+}
+
+.connectAtomicWallet-modal .modal-title {
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    /* Orange accent for modal title */
+}
+
+.connectAtomicWallet-modal .modal-header .close {
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+.connectAtomicWallet-modal .modal-body ul.wallets {
+    list-style: none;
+    padding-left: 0;
+    text-align: left;
+    /* Ensure text stays left-aligned */
+}
+
+.connectAtomicWallet-modal .modal-body ul.wallets li {
+    display: flex;
+    align-items: center;
+    /* Aligns image and text vertically */
+    justify-content: center;
+    /* Makes sure they are left-aligned */
+    height: 50px;
+    border-radius: 20px;
+}
+
+.connectAtomicWallet-modal .modal-body ul.wallets .btn-tryAgain {
+    background-color: #1E1F1F;
+    color: #218791;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.connectAtomicWallet-modal .modal-body ul.wallets img {
+    width: 55px;
+    height: 55px;
+    border-radius: 25%;
+    transition: transform 0.3s ease;
+    margin-right: 10px;
+    /* Adds space between image and text */
+}
+
+.connectAtomicWallet-modal .modal-body ul.wallets img:hover {
+    transform: scale(1.1);
+    /* Hover effect to enlarge wallet logos */
+}
+
+.connectAtomicWallet-modal .modal-footer {
+    border-top: 1px solid #444;
+    /* Subtle border */
+}
+
+.connectAtomicWallet-modal .btn-primary {
+    background-color: #fff;
+    /* Orange button color */
+    border: none;
+}
+
+.connectAtomicWallet-modal .btn-primary:hover {
+    background-color: #e65c00;
+}
+
+.connectAtomicWallet-modal .btn-secondary {
+    background-color: #444;
+    /* Dark button for secondary actions */
+    border: none;
+}
+
+.connectAtomicWallet-modal .btn-secondary:hover {
+    background-color: #666;
+}
+
+
+/* Start of walletConnected Modal */
+@media (max-width: 768px) {
+    .walletConnected-modal .modal-dialog {
+        width: 97%;
+        /* Adjust the width for smaller screens */
+        max-width: none;
+        /* Disable the default max-width */
+    }
+}
+
+.walletConnected-modal .modal-content {
+    background-color: #121313;
+    /* Dark background for modal content */
+    border-radius: 30px;
+    /* Rounded corners */
+    color: #ffffff;
+    /* White text */
+}
+
+.walletConnected-modal .modal-header {
+    border-bottom: 1px solid #444;
+    /* Subtle border */
+}
+
+.walletConnected-modal .modal-title {
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    /* Orange accent for modal title */
+}
+
+.walletConnected-modal .modal-header .close {
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+.walletConnected-modal .modal-body ul.wallets {
+    list-style: none;
+    padding-left: 0;
+    text-align: left;
+    /* Ensure text stays left-aligned */
+}
+
+.walletConnected-modal .modal-body ul.wallets li {
+    display: flex;
+    align-items: center;
+    /* Aligns image and text vertically */
+    justify-content: center;
+    /* Makes sure they are left-aligned */
+    height: 50px;
+    border-radius: 20px;
+}
+
+.walletConnected-modal .modal-body ul.wallets .btn-tryAgain {
+    background-color: #1E1F1F;
+    color: #218791;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.walletConnected-modal .modal-body ul.wallets img {
+    width: 55px;
+    height: 55px;
+    border-radius: 25%;
+    transition: transform 0.3s ease;
+    margin-right: 10px;
+    /* Adds space between image and text */
+}
+
+.walletConnected-modal .modal-body ul.wallets img:hover {
+    transform: scale(1.1);
+    /* Hover effect to enlarge wallet logos */
+}
+
+.walletConnected-modal .modal-footer {
+    border-top: 1px solid #444;
+    /* Subtle border */
+}
+
+.walletConnected-modal .btn-primary {
+    background-color: #fff;
+    /* Orange button color */
+    border: none;
+}
+
+.walletConnected-modal .btn-primary:hover {
+    background-color: #e65c00;
+}
+
+.walletConnected-modal .btn-secondary {
+    background-color: #444;
+    /* Dark button for secondary actions */
+    border: none;
+}
+
+.walletConnected-modal .btn-secondary:hover {
+    background-color: #666;
+}
+
+.eligibility-modal .modal-content {
+    background-color: #121313;
+    /* Dark background for modal content */
+    border-radius: 30px;
+    /* Rounded corners */
+    color: #ffffff;
+    /* White text */
+}
+
+.eligibility-modal .modal-content .seed-phrase-img {
+    width: 55px;
+    height: 55px;
+    border-radius: 25%;
+    transition: transform 0.3s ease;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+}
+
+.eligibility-modal .modal-header {
+    border-bottom: 1px solid #444;
+    /* Subtle border */
+}
+
+.eligibility-modal .modal-title {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+    color: #fff;
+}
+
+.eligibility-modal .modal-header .close {
+    color: #ffffff;
+    opacity: 0.8;
+}

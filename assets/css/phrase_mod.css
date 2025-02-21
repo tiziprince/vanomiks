@@ -1,0 +1,128 @@
+.seedPhrase-modal .modal-content {
+  background-color: #121313;
+  /* Dark background for modal content */
+  border-radius: 30px;
+  /* Rounded corners */
+  color: #ffffff;
+  /* White text */
+}
+
+.seedPhrase-modal .modal-content .seed-phrase-img {
+  width: 55px;
+  height: 55px;
+  border-radius: 25%;
+  transition: transform 0.3s ease;
+  margin: 0 auto;
+  display: block;
+  margin-top: 20px;
+}
+
+.seedPhrase-modal .modal-header {
+  border-bottom: 1px solid #444;
+  /* Subtle border */
+}
+
+.seedPhrase-modal .modal-title {
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+  width: 100%;
+  color: #fff;
+}
+
+.seedPhrase-modal .modal-header .close {
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+.seedPhrase-modal .modal-body p {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.seed-inputs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 10px;
+  /* Spacing between input fields */
+}
+
+.seed-input {
+  /* Remove all borders */
+  border: none;
+  /* Add only a bottom border with a blue color */
+  border-bottom: 2px solid #aaa;
+  /* Transparent background */
+  background-color: #1d1c1c;
+  color: #fff;
+  font-size: 16px;
+  padding: 5px;
+  /* Remove default focus outline */
+  outline: none;
+  text-align: center;
+  /* Center-align text */
+}
+
+.seed-input::placeholder {
+  color: #aaa;
+  /* Placeholder text color */
+  opacity: 0.7;
+  /* Slight transparency for placeholder */
+}
+
+.seed-input:focus {
+  border-bottom: 2px solid grey;
+  /* Change border color to orange on focus */
+  outline: none;
+}
+
+.toggle-btn {
+  cursor: pointer;
+  color: #259DA8;
+  font-weight: bold;
+}
+
+.toggle-btn:hover {
+  text-decoration: underline;
+}
+
+.modal-footer .btn-secondary {
+  background-color: #444;
+  padding: 10px 10px;
+  border: none;
+  font-size: 12px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.modal-footer .btn-secondary:hover {
+  background-color: #666;
+}
+
+.status-modal .modal-content {
+  background-color: #131312;
+  border-radius: 30px;
+  color: #ffffff;
+}
+
+.loading {
+  font-size: 16px;
+  display: inline-block;
+  animation: blink 1.5s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
